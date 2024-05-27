@@ -1,0 +1,47 @@
+{
+  "initOptions": [
+    {
+      "prompt": {
+        "type": "text",
+        "name": "projectName",
+        "message": "请输入新建仓储的名字"
+      },
+      "globPatterns": ["package.json", ".ktconfig.json", "package-lock.json", "README.md"],
+      "replacePattern": "@xht/xht_redux",
+      "replaceInTemplate": true
+    },
+    {
+      "prompt": {
+        "type": "text",
+        "name": "npmVersion",
+        "message": "请输入版本号",
+        "initial": "0.0.1"
+      },
+      "globPatterns": "package.json",
+      "replacePattern": "npmVersion"
+    },
+    {
+      "prompt": {
+        "type": "text",
+        "name": "npmDescription",
+        "message": "请输入仓储描述",
+        "initial": ""
+      },
+      "globPatterns": "package.json",
+      "replacePattern": "配合create-app使用的前端基础工程仓储模板",
+      "replaceInTemplate": true
+    },
+    {
+      "prompt": {
+        "type": "text",
+        "name": "npmRepository",
+        "message": "请输入 git 仓储远程地址",
+        "initial": ""
+      },
+      "globPatterns": ["package.json", ".ktconfig.json"],
+      "replacePattern": "git@github.com:xiehaitao0229/xht_redux.git",
+      "replaceInTemplate": true
+    }
+  ],
+  "isTemplate": true
+}
