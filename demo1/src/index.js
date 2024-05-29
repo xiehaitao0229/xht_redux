@@ -2,6 +2,7 @@ import {createStore} from './redux';
 console.log(33)
 console.log(44)
 console.log(555)
+console.log(666)
 let initState = {
     counter:{
         count:0
