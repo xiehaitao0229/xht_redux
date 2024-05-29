@@ -3,6 +3,7 @@ console.log(33)
 console.log(44)
 console.log(555)
 console.log(666)
+console.log(777)
 let initState = {
     counter:{
         count:0
