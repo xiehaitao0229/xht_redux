@@ -1,4 +1,5 @@
 import {createStore} from './redux';
+console.log(33)
 
 let initState = {
     counter:{
